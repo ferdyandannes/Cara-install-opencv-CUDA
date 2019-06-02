@@ -25,6 +25,7 @@ $ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 -D WITH_CUBLAS=1 \
 -D OPENCV_EXTRA_MODULES_PATH="/home/ee401_2/opencv_install/opencv_contrib-3.4.2/modules" \
 -D BUILD_EXAMPLES=ON \
+-D BUILD_PYTHON_SUPPORT=ON \
 -D BUILD_opencv_xfeatures2d=ON ..
 $ make -j8
 $ sudo make install
